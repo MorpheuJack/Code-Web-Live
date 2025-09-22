@@ -1,0 +1,5 @@
+{
+  "name": "Live Code Editor",
+  "description": "A real-time HTML, CSS, and JavaScript code editor and renderer. Write your code and see the results instantly in a sandboxed preview pane.",
+  "requestFramePermissions": []
+}
