@@ -111,13 +111,7 @@ const Preview: React.FC<PreviewProps> = ({ html, css, js, isFullScreen, onToggle
 
   return (
     <div className="flex flex-col h-full bg-gray-800 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
-       <div className="flex items-center justify-between p-2 bg-gray-900 text-gray-300 border-b border-gray-700">
-        <div className="flex items-center">
-         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-        </svg>
-        <h2 className="font-mono text-sm tracking-wider">Preview</h2>
-        </div>
+       <div className="flex items-center justify-center p-2 bg-gray-900 text-gray-300 border-b border-gray-700">
         <div className="flex items-center gap-2">
             <div className="flex items-center gap-1">
               <ViewportControl mode="desktop"><DesktopIcon /></ViewportControl>
